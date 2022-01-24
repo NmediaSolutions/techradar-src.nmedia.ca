@@ -51,7 +51,3 @@ React,Adopt,Frontend,TRUE,On continue de favoriser VueJS mais selon les exigence
 Redis,PoC,Bases de données et infrastructure,FALSE,https://redis.io/
 Terraform,PoC,Bases de données et infrastructure,TRUE,"Prometteur pour du infrastructure as code"
 Typescript,PoC,Frontend,TRUE,
-
-
-
-
