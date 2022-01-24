@@ -49,7 +49,7 @@ Heroku,Hold,Bases de données et infrastructure,TRUE,Solution a faible cout pour
 DigitalOcean,Adopt,Bases de données et infrastructure,TRUE,Solution a faible cout pour de l'hébergement en mode containers.
 React,Adopt,Frontend,TRUE,On continue de favoriser VueJS mais selon les exigences des projets on choisis parfois React.
 Redis,PoC,Bases de données et infrastructure,FALSE,https://redis.io/
-Terraform,PoC,Bases de données et infrastructure,TRUE,"Prometteur pour du ""infrastructure as code"""
+Terraform,PoC,Bases de données et infrastructure,TRUE,"Prometteur pour du infrastructure as code"
 Typescript,PoC,Frontend,TRUE,
 
 
