@@ -2,7 +2,7 @@ name,ring,quadrant,isNew,description
 .Net 6,Adopt,Backend,TRUE,
 ASP.NET Core,Adopt,Backend,FALSE,
 Azure API Management,Adopt,Bases de données et infrastructure,FALSE,"Permet d'exposer, sécuriser et configurer facilement des api basés sur des systèmes existants ou des azure function."
-Azure Container Apps,Explore,Bases de données et infrastructure,TRUE,"Hébergement containers simplifier, implémente KEDA pour gérer la montée en charge avec différentes métriques."
+Azure Container Apps,PoC,Bases de données et infrastructure,TRUE,"Hébergement containers simplifier, implémente KEDA pour gérer la montée en charge avec différentes métriques."
 Azure Container Instances,Adopt,Bases de données et infrastructure,FALSE,https://azure.microsoft.com/en-us/services/container-instances/
 Azure Front Door,Adopt,Bases de données et infrastructure,FALSE,"Permet de gérer firewalls, dns, cache d'application à un seul endroit. Intègre des règles de base pour protéger les apps web du traffic externe. "
 Azure Static Web Apps,Adopt,Bases de données et infrastructure,FALSE,Est passé en GA cet été. On privilégie cette façon de travailler lorsque possible
@@ -11,7 +11,7 @@ Dynamics 365,Adopt,SAAS et Microsoft 365,FALSE,
 Dynamics 365 Customer Service,Adopt,SAAS et Microsoft 365,FALSE,
 Dynamics 365 Sales,Adopt,SAAS et Microsoft 365,FALSE,
 Dynamics Power Apps Portal,Adopt,SAAS et Microsoft 365,TRUE,
-"ELK Stack (Elastic, Logstash, Kibana)",Adopt,Bases de données et infrastructure,FALSE,Outil ETL pour Elastic
+"ELK Stack (Elastic, Logstash, Kibana)",Adopt,Bases de données et infrastructure,FALSE,"Outil ETL pour Elastic, version cloud maintenant privilégiée"
 Github,Adopt,Bases de données et infrastructure,FALSE,
 GraphQL,Adopt,Backend,FALSE,Adopté pour certains cas précis quand on veut partager un API public en lecture
 MS SQLServer,Adopt,Bases de données et infrastructure,FALSE,Base de données relationnelle utilisé dans la majorités de nos développements.
@@ -23,31 +23,32 @@ Microsoft FormsPro,Adopt,SAAS et Microsoft 365,FALSE,https://formspro.microsoft.
 Microsoft Power Platform,Adopt,SAAS et Microsoft 365,FALSE,
 MongoDb,Adopt,Bases de données et infrastructure,FALSE,La solutions MongoDB Atlas est aussi favorisé lorsqu'utilisé en mode SAAS.
 Node JS,Adopt,Backend,FALSE,
-NopCommerce,Adopt,Backend,FALSE,"Pour du commerce en ligne, moins efficace pour la portion CMS"
-NuxtJS 3 (beta),Explore,Frontend,TRUE,En attente de la sortie officielle et devrait être adoptée immédiatement
+NuxtJS 3 (beta),Explore,Frontend,TRUE,"Sortie prévue en juin 2022, devrait être adopté à ce moment-là"
 NuxtJS 2,Adopt,Frontend,FALSE,https://fr.nuxtjs.org/
-Orchard Core,Adopt,Backend,FALSE,"CMS en .Net Core très flexible, permet d'aller en mode headless ou fullstack. Pour des projets de petite à moyenne envergure."
-PostgreSQL,Adopt,Bases de données et infrastructure,FALSE,
+PostgreSQL,Adopt,Bases de données et infrastructure,FALSE,Pour les applications où on veut du relationel à faible coût
 Power BI,Adopt,SAAS et Microsoft 365,FALSE,
 Selenium,Hold,Frontend,FALSE,"Tests UI, difficile a maintenir, on favorise l'utilisation de cypress."
-Strapi,Adopt,Backend,FALSE,Headless CMS NodeJS OpenSource. 
-Umbraco 9,Adopt,Backend,FALSE,CMS .net 
+Strapi 4,Adopt,Backend,FALSE,"Headless CMS NodeJS OpenSource. "
+Umbraco 9,Adopt,Backend,FALSE,"CMS .net "
 Vue.js 2,Adopt,Frontend,FALSE,
-Xamarin Forms 5.0,Adopt,Frontend,FALSE,
+Xamarin Forms 5.0,Adopt,Frontend,FALSE,"En transition avec MAUI, devrait devenir on hold prochainement"
 Xunit,Adopt,Backend,FALSE,Tests .net
-.Net MAUI,Explore,Frontend,TRUE,Devrait remplacer Xamarin Forms dans notre pratique mobile à sa sortie prochaine
+.Net MAUI,PoC,Frontend,TRUE,"Devenu GA à l'été 2022, devrait remplacer Xamarin Forms dans nos projets mobile"
 Dynamics 365 Business Central,Explore,SAAS et Microsoft 365,FALSE,
 Dynamics 365 Field Service,Explore,SAAS et Microsoft 365,FALSE,
 Dynamics 365 Project Operations,Explore,SAAS et Microsoft 365,FALSE,Anciennement Dynamics 365 Project Service Automation
 Firebase,PoC,Backend,TRUE,
-Flutter 2.0,Explore,Frontend,TRUE,
-Vue.js 3,Explore,Frontend,FALSE,"Notre utilisation de VueJS est principalement faite avec Nuxt, comme ce dernier n'est toujours pas disponible avec VueJS 3.0 nous n'avons pas pour le moment commencé à l'utiliser."
+Flutter,Explore,Frontend,TRUE,
+Vue.js 3,PoC,Frontend,FALSE,"Notre utilisation de VueJS est principalement faite avec Nuxt, comme ce dernier n'est toujours pas disponible avec VueJS 3.0 nous n'avons pas pour le moment commencé à l'utiliser."
 Angular,PoC,Frontend,TRUE,
 Blazor,PoC,Frontend,TRUE,"On surveille de près cette technologie, mais pour l'instant on l'utilise principalement en mode preuve de concept"
 Dynamics 365 Marketing,PoC,SAAS et Microsoft 365,FALSE,Marketing automation
 Heroku,Hold,Bases de données et infrastructure,TRUE,Solution a faible cout pour de l'hébergement en mode containers. On priorise actuellement digitalocean.
 DigitalOcean,Adopt,Bases de données et infrastructure,TRUE,Solution a faible cout pour de l'hébergement en mode containers.
-React,Adopt,Frontend,TRUE,On continue de favoriser VueJS mais selon les exigences des projets on choisis parfois React.
+React,Adopt,Frontend,TRUE,On continue de favoriser VueJS mais selon les exigences des projets on choisi parfois React.
 Redis,PoC,Bases de données et infrastructure,FALSE,https://redis.io/
-Terraform,PoC,Bases de données et infrastructure,TRUE,"Prometteur pour du infrastructure as code"
-Typescript,PoC,Frontend,TRUE,
+Terraform,Adopt,Bases de données et infrastructure,TRUE,Très utile pour monter les infrastructures en évitant les erreurs humaines
+Typescript,Adopt,Frontend,TRUE,
+.NET 7,Explore,Backend,TRUE,"Ne devrait pas être LTS, donc en mode exploration seulement pour être prêt pour .NET 8"
+Next.js,Adopt,Frontend,TRUE,Framework utile pour les projets en React qui nécessitent du static rendering ou du SSR
+React Native,PoC,Frontend,TRUE,"On aime beaucoup, permet de réutiliser notre connaissance des frameworks javascript avec nos connaissances mobiles"
