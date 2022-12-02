@@ -1,4 +1,5 @@
-Azure Devops,Adopt,Base de données et infrastructure,FALSE,
+name,ring,quadrant,isNew,description
+Azure Devops,Adopt,Bases de données et infrastructure,FALSE,
 ASP.NET Core,Adopt,Backend,FALSE,
 Azure API Management,Adopt,Bases de données et infrastructure,FALSE,"Permet d'exposer, sécuriser et configurer facilement des api basés sur des systèmes existants ou des azure function."
 Azure Container Apps,Explore,Bases de données et infrastructure,TRUE,"Hébergement containers simplifier, implémente KEDA pour gérer la montée en charge avec différentes métriques."
