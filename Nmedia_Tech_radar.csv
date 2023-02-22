@@ -10,8 +10,13 @@ Cypress,Adopt,Frontend,FALSE,Tests javascript
 Dynamics 365,Adopt,SAAS et Microsoft 365,FALSE,
 Dynamics 365 Customer Service,Adopt,SAAS et Microsoft 365,FALSE,
 Dynamics 365 Sales,Adopt,SAAS et Microsoft 365,FALSE,
-Dynamics Power Apps Portal,Adopt,SAAS et Microsoft 365,TRUE,
-Dynamics Power Pages,Adopt,Bases de données et infrastructure,FALSE,Outil ETL pour Elastic
+Dynamics 365 Customer Voice,Adopt,SAAS et Microsoft 365,FALSE,
+Dynamics Power Pages,Adopt,SAAS et Microsoft 365,TRUE,
+Power Automate,Adopt,SAAS et Microsoft 365,FALSE,
+Power Apps,Adopt,SAAS et Microsoft 365,FALSE,
+Power Virtual Agent,Explore,SAAS et Microsoft 365,TRUE,
+Business Central,Explore,SAAS et Microsoft 365,TRUE,
+AI Builder,Hold,SAAS et Microsoft 365,TRUE,
 Github,Adopt,Bases de données et infrastructure,FALSE,
 GraphQL,Adopt,Backend,FALSE,Adopté pour certains cas précis quand on veut partager un API public en lecture
 MS SQLServer,Adopt,Bases de données et infrastructure,FALSE,Base de données relationnelle utilisé dans la majorités de nos développements.
@@ -29,8 +34,8 @@ Orchard Core,Adopt,Backend,FALSE,"CMS en .Net Core très flexible, permet d'alle
 PostgreSQL,Adopt,Bases de données et infrastructure,FALSE,
 Power BI,Adopt,SAAS et Microsoft 365,FALSE,
 Selenium,Hold,Frontend,FALSE,"Tests UI, difficile a maintenir, on favorise l'utilisation de cypress."
-Strapi,Adopt,Backend,FALSE,Headless CMS NodeJS OpenSource. 
-Umbraco,Adopt,Backend,FALSE,CMS .net 
+Strapi,Adopt,Backend,FALSE,Headless CMS NodeJS OpenSource.
+Umbraco,Adopt,Backend,FALSE,CMS .net
 Vue.js 3,Adopt,Frontend,FALSE,
 Xunit,Adopt,Backend,FALSE,Tests .net
 .Net MAUI,Adopt,Frontend,TRUE,"Sortie cette année, nos prochains projets mobiles devraient être dans cette technologie"
@@ -47,7 +52,7 @@ Heroku,Hold,Bases de données et infrastructure,TRUE,Solution a faible cout pour
 DigitalOcean,Adopt,Bases de données et infrastructure,TRUE,Solution a faible cout pour de l'hébergement en mode containers.
 React,Adopt,Frontend,TRUE,On continue de favoriser VueJS mais selon les exigences des projets on choisis parfois React.
 Redis,PoC,Bases de données et infrastructure,FALSE,https://redis.io/
-Terraform,Adopt,Bases de données et infrastructure,TRUE,"Prometteur pour du infrastructure as code"
+Terraform,Adopt,Bases de données et infrastructure,TRUE,Prometteur pour du infrastructure as code
 Typescript,Adopt,Frontend,TRUE,
 .Net 7,Explore,Backend,TRUE,"Utilisé pour nos preuves de concept, mais n'est pas LTS"
 Nuxt 3,Adopt,Frontend,TRUE,
