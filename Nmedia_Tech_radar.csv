@@ -36,7 +36,6 @@ Power BI,Adopt,SAAS et Microsoft 365,FALSE,
 Selenium,Hold,Frontend,FALSE,"Tests UI, difficile a maintenir, on favorise l'utilisation de cypress."
 Strapi,Adopt,Backend,FALSE,Headless CMS NodeJS OpenSource.
 Umbraco,Adopt,Backend,FALSE,CMS .net
-Vue.js 3,Adopt,Frontend,FALSE,
 Xunit,Adopt,Backend,FALSE,Tests .net
 .Net MAUI,Adopt,Frontend,TRUE,"Sortie cette année, nos prochains projets mobiles devraient être dans cette technologie"
 React Native,PoC,Frontend,TRUE,
