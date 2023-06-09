@@ -1,5 +1,5 @@
 name,ring,quadrant,isNew,description
-Azure Devops,Adopt,Base de données et infrastructure,FALSE,
+Azure Devops,Adopt,Bases de données et infrastructure,FALSE,
 ASP.NET Core,Adopt,Backend,FALSE,
 Azure Container Instances,Adopt,Bases de données et infrastructure,FALSE,https://azure.microsoft.com/en-us/services/container-instances/
 Azure Front Door,Adopt,Bases de données et infrastructure,FALSE,"Permet de gérer firewalls, dns, cache d'application à un seul endroit. Intègre des règles de base pour protéger les apps web du traffic externe. "
@@ -7,8 +7,13 @@ Cypress,Adopt,Frontend,FALSE,Tests javascript
 Dynamics 365,Adopt,SAAS et Microsoft 365,FALSE,
 Dynamics 365 Customer Service,Adopt,SAAS et Microsoft 365,FALSE,
 Dynamics 365 Sales,Adopt,SAAS et Microsoft 365,FALSE,
-Dynamics Power Apps Portal,Adopt,SAAS et Microsoft 365,TRUE,
-Dynamics Power Pages,Adopt,Bases de données et infrastructure,FALSE,Outil ETL pour Elastic
+Dynamics 365 Customer Voice,Adopt,SAAS et Microsoft 365,FALSE,
+Dynamics Power Pages,Adopt,SAAS et Microsoft 365,TRUE,
+Power Automate,Adopt,SAAS et Microsoft 365,FALSE,
+Power Apps,Adopt,SAAS et Microsoft 365,FALSE,
+Power Virtual Agent,Explore,SAAS et Microsoft 365,TRUE,
+Business Central,Explore,SAAS et Microsoft 365,TRUE,
+AI Builder,Hold,SAAS et Microsoft 365,TRUE,
 Github,Adopt,Bases de données et infrastructure,FALSE,
 GraphQL,Adopt,Backend,FALSE,Adopté pour certains cas précis quand on veut partager un API public en lecture
 MS SQLServer,Adopt,Bases de données et infrastructure,FALSE,Base de données relationnelle utilisé dans la majorités de nos développements.
