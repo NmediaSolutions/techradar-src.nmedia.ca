@@ -40,7 +40,7 @@ Blazor,PoC,Frontend,FALSE,"On surveille de près cette technologie, mais pour l'
 Dynamics 365 Marketing,PoC,SAAS et Microsoft 365,FALSE,Marketing automation
 DigitalOcean,Adopt,Bases de données et infrastructure,FALSE,Solution a faible cout pour de l'hébergement en mode containers.
 React,Adopt,Frontend,FALSE,On continue de favoriser VueJS mais selon les exigences des projets on choisis parfois React.
-Terraform,HOLD,Bases de données et infrastructure,FALSE,On utilise maintenant Pulumi
+Terraform,Hold,Bases de données et infrastructure,FALSE,On utilise maintenant Pulumi
 Typescript,Adopt,Frontend,FALSE,
 .Net 7,Explore,Backend,TRUE,"Utilisé pour nos preuves de concept, mais n'est pas LTS"
 Nuxt 3,Adopt,Frontend,FALSE,
