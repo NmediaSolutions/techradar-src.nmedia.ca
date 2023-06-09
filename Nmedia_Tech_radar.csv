@@ -1,11 +1,8 @@
 name,ring,quadrant,isNew,description
 Azure Devops,Adopt,Base de données et infrastructure,FALSE,
 ASP.NET Core,Adopt,Backend,FALSE,
-Azure API Management,Adopt,Bases de données et infrastructure,FALSE,"Permet d'exposer, sécuriser et configurer facilement des api basés sur des systèmes existants ou des azure function."
-Azure Container Apps,Explore,Bases de données et infrastructure,TRUE,"Hébergement containers simplifier, implémente KEDA pour gérer la montée en charge avec différentes métriques."
 Azure Container Instances,Adopt,Bases de données et infrastructure,FALSE,https://azure.microsoft.com/en-us/services/container-instances/
 Azure Front Door,Adopt,Bases de données et infrastructure,FALSE,"Permet de gérer firewalls, dns, cache d'application à un seul endroit. Intègre des règles de base pour protéger les apps web du traffic externe. "
-Azure Static Web Apps,Adopt,Bases de données et infrastructure,FALSE,Est passé en GA cet été. On privilégie cette façon de travailler lorsque possible
 Cypress,Adopt,Frontend,FALSE,Tests javascript
 Dynamics 365,Adopt,SAAS et Microsoft 365,FALSE,
 Dynamics 365 Customer Service,Adopt,SAAS et Microsoft 365,FALSE,
@@ -16,39 +13,32 @@ Github,Adopt,Bases de données et infrastructure,FALSE,
 GraphQL,Adopt,Backend,FALSE,Adopté pour certains cas précis quand on veut partager un API public en lecture
 MS SQLServer,Adopt,Bases de données et infrastructure,FALSE,Base de données relationnelle utilisé dans la majorités de nos développements.
 JMeter,Adopt,Bases de données et infrastructure,FALSE,Tests de charge
-K6,Adopt,Bases de données et infrastructure,TRUE,Outil de tests de charge script
-Kubernetes,Hold,Bases de données et infrastructure,FALSE,On va préférer des solutions tel que Container Instances ou Container Apps pour héberger nos containers.
+K6,Adopt,Bases de données et infrastructure,FALSE,Outil de tests de charge script
 Microsoft Dataverse,Adopt,SAAS et Microsoft 365,FALSE,
 Microsoft FormsPro,Adopt,SAAS et Microsoft 365,FALSE,https://formspro.microsoft.com/fr-fr/
 Microsoft Power Platform,Adopt,SAAS et Microsoft 365,FALSE,
-MongoDb,Adopt,Bases de données et infrastructure,FALSE,Entres autres Power Pages pour Dynamics
+MongoDb,Adopt,Bases de données et infrastructure,FALSE,
 Node JS,Adopt,Backend,FALSE,
-NopCommerce,Adopt,Backend,FALSE,"Pour du commerce en ligne, moins efficace pour la portion CMS"
-NuxtJS 3,Adopt,Frontend,TRUE,"Enfin sorti cette année, on passe de Nuxt 2 à Nuxt 3."
-Orchard Core,Adopt,Backend,FALSE,"CMS en .Net Core très flexible, permet d'aller en mode headless ou fullstack. Pour des projets de petite à moyenne envergure."
 PostgreSQL,Adopt,Bases de données et infrastructure,FALSE,
 Power BI,Adopt,SAAS et Microsoft 365,FALSE,
-Selenium,Hold,Frontend,FALSE,"Tests UI, difficile a maintenir, on favorise l'utilisation de cypress."
 Strapi,Adopt,Backend,FALSE,Headless CMS NodeJS OpenSource. 
 Umbraco,Adopt,Backend,FALSE,CMS .net 
-Vue.js 3,Adopt,Frontend,FALSE,
 Xunit,Adopt,Backend,FALSE,Tests .net
-.Net MAUI,Adopt,Frontend,TRUE,"Sortie cette année, nos prochains projets mobiles devraient être dans cette technologie"
+.Net MAUI,Adopt,Frontend,FALSE,
 React Native,PoC,Frontend,TRUE,
 Dynamics 365 Field Service,Explore,SAAS et Microsoft 365,FALSE,
 Dynamics 365 Project Operations,Explore,SAAS et Microsoft 365,FALSE,Anciennement Dynamics 365 Project Service Automation
-Firebase,PoC,Backend,TRUE,
-Flutter 2.0,Explore,Frontend,TRUE,
+Flutter,Explore,Frontend,FALSE,
 Vue.js 3,Adopt,Frontend,FALSE,
-Angular,PoC,Frontend,TRUE,
-Blazor,PoC,Frontend,TRUE,"On surveille de près cette technologie, mais pour l'instant on l'utilise principalement en mode preuve de concept"
+Angular,Adopt,Frontend,FALSE,
+Blazor,PoC,Frontend,FALSE,"On surveille de près cette technologie, mais pour l'instant on l'utilise principalement en mode preuve de concept"
 Dynamics 365 Marketing,PoC,SAAS et Microsoft 365,FALSE,Marketing automation
-Heroku,Hold,Bases de données et infrastructure,TRUE,Solution a faible cout pour de l'hébergement en mode containers. On priorise actuellement digitalocean.
-DigitalOcean,Adopt,Bases de données et infrastructure,TRUE,Solution a faible cout pour de l'hébergement en mode containers.
-React,Adopt,Frontend,TRUE,On continue de favoriser VueJS mais selon les exigences des projets on choisis parfois React.
-Redis,PoC,Bases de données et infrastructure,FALSE,https://redis.io/
-Terraform,Adopt,Bases de données et infrastructure,TRUE,"Prometteur pour du infrastructure as code"
-Typescript,Adopt,Frontend,TRUE,
+DigitalOcean,Adopt,Bases de données et infrastructure,FALSE,Solution a faible cout pour de l'hébergement en mode containers.
+React,Adopt,Frontend,FALSE,On continue de favoriser VueJS mais selon les exigences des projets on choisis parfois React.
+Terraform,HOLD,Bases de données et infrastructure,FALSE,On utilise maintenant Pulumi
+Typescript,Adopt,Frontend,FALSE,
 .Net 7,Explore,Backend,TRUE,"Utilisé pour nos preuves de concept, mais n'est pas LTS"
-Nuxt 3,Adopt,Frontend,TRUE,
+Nuxt 3,Adopt,Frontend,FALSE,
 Pulumi,Adopt,Bases de données et infrastructure,TRUE,Devient notre choix pour les projets qui ont besoin d'insfrastructure as code
+Vitest,Adopt,Frontend,TRUE,
+Shopify,Adopt,Bases de données et infrastructure,TRUE,
