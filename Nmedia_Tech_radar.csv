@@ -11,12 +11,12 @@ Dynamics 365,Adopt,SAAS et Microsoft 365,FALSE,
 Dynamics 365 Customer Service,Adopt,SAAS et Microsoft 365,FALSE,
 Dynamics 365 Sales,Adopt,SAAS et Microsoft 365,FALSE,
 Dynamics 365 Customer Voice,Adopt,SAAS et Microsoft 365,FALSE,
-Dynamics Power Pages,Adopt,SAAS et Microsoft 365,TRUE,
+Power Pages,Adopt,SAAS et Microsoft 365,FALSE,
 Power Automate,Adopt,SAAS et Microsoft 365,FALSE,
 Power Apps,Adopt,SAAS et Microsoft 365,FALSE,
-Power Virtual Agent,Explore,SAAS et Microsoft 365,TRUE,
+Power Virtual Agent,PoC,SAAS et Microsoft 365,TRUE,
+Adaptive Cards,PoC,SAAS et Microsoft 365,TRUE,
 Business Central,Explore,SAAS et Microsoft 365,TRUE,
-AI Builder,Hold,SAAS et Microsoft 365,TRUE,
 Github,Adopt,Bases de données et infrastructure,FALSE,
 GraphQL,Adopt,Backend,FALSE,Adopté pour certains cas précis quand on veut partager un API public en lecture
 MS SQLServer,Adopt,Bases de données et infrastructure,FALSE,Base de données relationnelle utilisé dans la majorités de nos développements.
@@ -24,8 +24,7 @@ JMeter,Adopt,Bases de données et infrastructure,FALSE,Tests de charge
 K6,Adopt,Bases de données et infrastructure,TRUE,Outil de tests de charge script
 Kubernetes,Hold,Bases de données et infrastructure,FALSE,On va préférer des solutions tel que Container Instances ou Container Apps pour héberger nos containers.
 Microsoft Dataverse,Adopt,SAAS et Microsoft 365,FALSE,
-Microsoft FormsPro,Adopt,SAAS et Microsoft 365,FALSE,https://formspro.microsoft.com/fr-fr/
-Microsoft Power Platform,Adopt,SAAS et Microsoft 365,FALSE,
+Microsoft Forms,Adopt,SAAS et Microsoft 365,FALSE,https://formspro.microsoft.com/fr-fr/
 MongoDb,Adopt,Bases de données et infrastructure,FALSE,Entres autres Power Pages pour Dynamics
 Node JS,Adopt,Backend,FALSE,
 NopCommerce,Adopt,Backend,FALSE,"Pour du commerce en ligne, moins efficace pour la portion CMS"
@@ -41,12 +40,14 @@ Xunit,Adopt,Backend,FALSE,Tests .net
 React Native,PoC,Frontend,TRUE,
 Dynamics 365 Field Service,Explore,SAAS et Microsoft 365,FALSE,
 Dynamics 365 Project Operations,Explore,SAAS et Microsoft 365,FALSE,Anciennement Dynamics 365 Project Service Automation
+Document automation,Explore,SAAS et Microsoft 365,TRUE,
+Wrap,PoC,SAAS et Microsoft 365,TRUE,"Permet d'inclure dans un wrapper une application canevas en tant qu'applications Android et iOS"
 Firebase,PoC,Backend,TRUE,
 Flutter 2.0,Explore,Frontend,TRUE,
 Vue.js 3,Adopt,Frontend,FALSE,
 Angular,PoC,Frontend,TRUE,
 Blazor,PoC,Frontend,TRUE,"On surveille de près cette technologie, mais pour l'instant on l'utilise principalement en mode preuve de concept"
-Dynamics 365 Marketing,PoC,SAAS et Microsoft 365,FALSE,Marketing automation
+Customer Insights,PoC,SAAS et Microsoft 365,FALSE,Marketing automation
 Heroku,Hold,Bases de données et infrastructure,TRUE,Solution a faible cout pour de l'hébergement en mode containers. On priorise actuellement digitalocean.
 DigitalOcean,Adopt,Bases de données et infrastructure,TRUE,Solution a faible cout pour de l'hébergement en mode containers.
 React,Adopt,Frontend,TRUE,On continue de favoriser VueJS mais selon les exigences des projets on choisis parfois React.
