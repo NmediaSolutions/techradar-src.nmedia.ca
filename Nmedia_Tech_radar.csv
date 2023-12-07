@@ -11,7 +11,7 @@ Dynamics 365 Customer Voice,Adopt,SAAS et Microsoft 365,FALSE,
 Power Pages,Adopt,SAAS et Microsoft 365,FALSE,
 Power Automate,Adopt,SAAS et Microsoft 365,FALSE,
 Power Apps,Adopt,SAAS et Microsoft 365,FALSE,
-Power Virtual Agent,PoC,SAAS et Microsoft 365,TRUE,
+Copilot Studio,PoC,SAAS et Microsoft 365,TRUE,Anciennement Power Virtual Agent
 Adaptive Cards,PoC,SAAS et Microsoft 365,TRUE,
 Business Central,Explore,SAAS et Microsoft 365,TRUE,
 Github,Adopt,Bases de données et infrastructure,FALSE,
@@ -25,25 +25,23 @@ MongoDb,Adopt,Bases de données et infrastructure,FALSE,
 Node JS,Adopt,Backend,FALSE,
 PostgreSQL,Adopt,Bases de données et infrastructure,FALSE,
 Power BI,Adopt,SAAS et Microsoft 365,FALSE,
-Strapi,Adopt,Backend,FALSE,Headless CMS NodeJS OpenSource. 
-Umbraco,Adopt,Backend,FALSE,CMS .net 
+Strapi,Adopt,Backend,FALSE,"Headless CMS NodeJS OpenSource. "
+Umbraco,Adopt,Backend,FALSE,"CMS .net "
 Xunit,Adopt,Backend,FALSE,Tests .net
 .Net MAUI,Adopt,Frontend,FALSE,
 React Native,PoC,Frontend,TRUE,
 Dynamics 365 Field Service,Explore,SAAS et Microsoft 365,FALSE,
 Dynamics 365 Project Operations,Explore,SAAS et Microsoft 365,FALSE,Anciennement Dynamics 365 Project Service Automation
 Document automation,Explore,SAAS et Microsoft 365,TRUE,
-Wrap,PoC,SAAS et Microsoft 365,TRUE,"Permet d'inclure dans un wrapper une application canevas en tant qu'applications Android et iOS"
+Wrap,PoC,SAAS et Microsoft 365,TRUE,Permet d'inclure dans un wrapper une application canevas en tant qu'applications Android et iOS
 Flutter,Explore,Frontend,FALSE,
 Vue.js 3,Adopt,Frontend,FALSE,
-Angular,PoC,Frontend,TRUE,
 Blazor,PoC,Frontend,TRUE,"On surveille de près cette technologie, mais pour l'instant on l'utilise principalement en mode preuve de concept"
 Customer Insights,PoC,SAAS et Microsoft 365,FALSE,Marketing automation
 DigitalOcean,Adopt,Bases de données et infrastructure,TRUE,Solution a faible cout pour de l'hébergement en mode containers.
 React,Adopt,Frontend,TRUE,On continue de favoriser VueJS mais selon les exigences des projets on choisis parfois React.
-Redis,PoC,Bases de données et infrastructure,FALSE,https://redis.io/
 Typescript,Adopt,Frontend,TRUE,
-.Net 7,Explore,Backend,TRUE,"Utilisé pour nos preuves de concept, mais n'est pas LTS"
+.Net 8,Adopt,Backend,TRUE,"Utilisé pour nos preuves de concept, mais n'est pas LTS"
 Nuxt 3,Adopt,Frontend,FALSE,
 Pulumi,Adopt,Bases de données et infrastructure,TRUE,Devient notre choix pour les projets qui ont besoin d'insfrastructure as code
 Vitest,Adopt,Frontend,TRUE,
