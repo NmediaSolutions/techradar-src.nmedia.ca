@@ -14,6 +14,8 @@ Power Apps,Adopt,SAAS et Microsoft 365,FALSE,
 Copilot Studio,PoC,SAAS et Microsoft 365,TRUE,Anciennement Power Virtual Agent
 Adaptive Cards,PoC,SAAS et Microsoft 365,TRUE,
 Business Central,Explore,SAAS et Microsoft 365,TRUE,
+Microsoft Fabric,PoC,SAAS et Microsoft 365,TRUE,https://microsoft.com/fr-fr/microsoft-fabric/
+Snowflake,PoC,SAAS et Microsoft 365,TRUE,https://www.snowflake.com/fr/
 Github,Adopt,Bases de données et infrastructure,FALSE,
 GraphQL,Adopt,Backend,FALSE,Adopté pour certains cas précis quand on veut partager un API public en lecture
 MS SQLServer,Adopt,Bases de données et infrastructure,FALSE,Base de données relationnelle utilisé dans la majorités de nos développements.
@@ -29,6 +31,8 @@ Strapi,Adopt,Backend,FALSE,"Headless CMS NodeJS OpenSource. "
 Umbraco,Adopt,Backend,FALSE,"CMS .net "
 Xunit,Adopt,Backend,FALSE,Tests .net
 .Net MAUI,Adopt,Frontend,FALSE,
+Blazor MAUI,PoC,Frontend,TRUE,
+Flutter,Adopt,Frontend,TRUE,https://flutter.dev/
 React Native,PoC,Frontend,TRUE,
 Dynamics 365 Field Service,Explore,SAAS et Microsoft 365,FALSE,
 Dynamics 365 Project Operations,Explore,SAAS et Microsoft 365,FALSE,Anciennement Dynamics 365 Project Service Automation
