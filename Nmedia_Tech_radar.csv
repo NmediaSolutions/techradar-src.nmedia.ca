@@ -14,8 +14,8 @@ Power Apps,Adopt,SAAS et Microsoft 365,FALSE,
 Copilot Studio,PoC,SAAS et Microsoft 365,TRUE,Anciennement Power Virtual Agent
 Adaptive Cards,PoC,SAAS et Microsoft 365,TRUE,
 Business Central,Explore,SAAS et Microsoft 365,TRUE,
-Microsoft Fabric,PoC,SAAS et Microsoft 365,TRUE,https://microsoft.com/fr-fr/microsoft-fabric/
-Snowflake,PoC,SAAS et Microsoft 365,TRUE,https://www.snowflake.com/fr/
+Microsoft Fabric,Adopt,SAAS et Microsoft 365,TRUE,https://microsoft.com/fr-fr/microsoft-fabric/
+Snowflake,Explore,SAAS et Microsoft 365,TRUE,https://www.snowflake.com/fr/
 Github,Adopt,Bases de données et infrastructure,FALSE,
 GraphQL,Adopt,Backend,FALSE,Adopté pour certains cas précis quand on veut partager un API public en lecture
 MS SQLServer,Adopt,Bases de données et infrastructure,FALSE,Base de données relationnelle utilisé dans la majorités de nos développements.
@@ -42,11 +42,15 @@ Flutter,Explore,Frontend,FALSE,
 Vue.js 3,Adopt,Frontend,FALSE,
 Blazor,PoC,Frontend,TRUE,"On surveille de près cette technologie, mais pour l'instant on l'utilise principalement en mode preuve de concept"
 Customer Insights,PoC,SAAS et Microsoft 365,FALSE,Marketing automation
-DigitalOcean,Adopt,Bases de données et infrastructure,TRUE,Solution a faible cout pour de l'hébergement en mode containers.
-React,Adopt,Frontend,TRUE,On continue de favoriser VueJS mais selon les exigences des projets on choisis parfois React.
-Typescript,Adopt,Frontend,TRUE,
-.Net 8,Adopt,Backend,TRUE,"Utilisé pour nos preuves de concept, mais n'est pas LTS"
+DigitalOcean,Adopt,Bases de données et infrastructure,FALSE,Solution a faible cout pour de l'hébergement en mode containers.
+React,Adopt,Frontend,FALSE,On continue de favoriser VueJS mais selon les exigences des projets on choisis parfois React.
+Typescript,Adopt,Frontend,FALSE,
+.Net 8,Adopt,Backend,TRUE,
 Nuxt 3,Adopt,Frontend,FALSE,
 Pulumi,Adopt,Bases de données et infrastructure,TRUE,Devient notre choix pour les projets qui ont besoin d'insfrastructure as code
 Vitest,Adopt,Frontend,TRUE,
-Shopify,Adopt,Bases de données et infrastructure,TRUE,
+Shopify,Adopt,Bases de données et infrastructure,FALSE,
+Semantic Kernel,PoC,Backend,TRUE,Utilisé pour intégrer des capacités d'intelligence artificielle avancées dans les applications .Net
+Azure OpenAI,PoC,SAAS et Microsoft 365,TRUE,"Permet d'intégrer des modèles d'intelligence artificielle avancés, tels que GPT, dans les applications, afin de créer des solutions intelligentes et interactives sur la plateforme cloud Azure de Microsoft."
+GitHub Copilot,Adopt,SAAS et Microsoft 365,TRUE,"Outil d'assistance à la programmation qui utilise l'intelligence artificielle pour suggérer du code en temps réel, aidant les développeurs à écrire du code plus rapidement et efficacement."
+PrimeVue,PoC,Frontend,TRUE,Bibliothèque de composants UI pour Vue.js qui offre une collection de composants riches et réactifs pour créer des interfaces utilisateur modernes et interactives.
