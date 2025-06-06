@@ -30,15 +30,14 @@ Power BI,Adopt,SAAS et Microsoft 365,FALSE,
 Strapi,Adopt,Backend,FALSE,"Headless CMS NodeJS OpenSource. "
 Umbraco,Adopt,Backend,FALSE,"CMS .net "
 Xunit,Adopt,Backend,FALSE,Tests .net
-.Net MAUI,Adopt,Frontend,FALSE,
-Blazor MAUI,PoC,Frontend,TRUE,
-Flutter,Adopt,Frontend,TRUE,https://flutter.dev/
+.NET MAUI,Adopt,Frontend,FALSE,
+.NET MAUI Blazor,PoC,Frontend,TRUE,
 React Native,PoC,Frontend,TRUE,
 Dynamics 365 Field Service,Explore,SAAS et Microsoft 365,FALSE,
 Dynamics 365 Project Operations,Explore,SAAS et Microsoft 365,FALSE,Anciennement Dynamics 365 Project Service Automation
 Document automation,Explore,SAAS et Microsoft 365,TRUE,
 Wrap,PoC,SAAS et Microsoft 365,TRUE,Permet d'inclure dans un wrapper une application canevas en tant qu'applications Android et iOS
-Flutter,Explore,Frontend,FALSE,
+Flutter,PoC,Frontend,FALSE,
 Vue.js 3,Adopt,Frontend,FALSE,
 Blazor,PoC,Frontend,TRUE,"On surveille de près cette technologie, mais pour l'instant on l'utilise principalement en mode preuve de concept"
 Customer Insights,PoC,SAAS et Microsoft 365,FALSE,Marketing automation
