@@ -53,3 +53,15 @@ Semantic Kernel,PoC,Backend,TRUE,Utilisé pour intégrer des capacités d'intell
 Azure OpenAI,PoC,SAAS et Microsoft 365,TRUE,"Permet d'intégrer des modèles d'intelligence artificielle avancés, tels que GPT, dans les applications, afin de créer des solutions intelligentes et interactives sur la plateforme cloud Azure de Microsoft."
 GitHub Copilot,Adopt,SAAS et Microsoft 365,TRUE,"Outil d'assistance à la programmation qui utilise l'intelligence artificielle pour suggérer du code en temps réel, aidant les développeurs à écrire du code plus rapidement et efficacement."
 PrimeVue,PoC,Frontend,TRUE,Bibliothèque de composants UI pour Vue.js qui offre une collection de composants riches et réactifs pour créer des interfaces utilisateur modernes et interactives.
+OpenWebUI,Adopt,Frontend,TRUE,Plateforme de chat pour servir des modèles LLM de plusieurs fournisseurs de façon interactive.
+LiteLLM,Adopt,Backend,TRUE,Gouvernance et distribution centralisée de modèles LLM multi-fournisseurs.
+Azure AI Foundry,PoC,SAAS et Microsoft 365,TRUE,SDK et plateforme Azure pour le développement et l'intégration de solutions AI avancées.
+Azure Document Recognizer,Adopt,SAAS et Microsoft 365,TRUE,Service Azure pour l'extraction automatisée de données à partir de documents.
+DeepSeek R1,PoC,Backend,TRUE,Fournisseur de modèles LLM open-source, déployé via l'infrastructure Azure pour sécurité et gouvernance des données.
+Anthropic (Claude),Adopt,Backend,TRUE,Fournisseur de modèles LLM (Claude) pour solutions conversationnelles.
+Perplexity,Adopt,Backend,TRUE,Fournisseur de modèles LLM pour recherche et conversation.
+Google Gemini,Adopt,Backend,TRUE,Fournisseur de modèles LLM Gemini pour usages conversationnels et génératifs.
+OpenAI (GPT / Dall-e / Série o),Adopt,Backend,TRUE,Fournisseur de modèles LLM (GPT, Dall-e) pour génération de texte et d'images.
+Azure OpenAI,Adopt,SAAS et Microsoft 365,TRUE,Déploiement régional des modèles GPT via Azure (Canada).
+Agentic Development (TeamScriber / Easy Whisper / PDF-Analyzer),PoC,Backend,TRUE,Outils développés sur mesure pour le développement agentique et l'automatisation AI.
+Mistra OCR,Adopt,SAAS et Microsoft 365,TRUE,Solution OCR adoptée pour l'extraction automatisée de texte à partir d'images et documents.
